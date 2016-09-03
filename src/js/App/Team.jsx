@@ -12,7 +12,7 @@ const strings = {
     {
       name: 'ドゥゲスト・ジャック',
       title: '代表取締役CEO',
-      image: require('../../image/jacques.png'),
+      image: require('../../image/team/01_AngelsInc-Team-Jacques-min.png'),
       description: <div>
         <p>ITエンジニアとCFOの職歴を持つエンジェル投資家。</p>
         <p>シードステージのスタートアップ企業の支援を行っている。</p>
@@ -22,7 +22,7 @@ const strings = {
     {
       name: '島田 千草',
       title: '取締役COO',
-      image: require('../../image/jacques.png'),
+      image: require('../../image/team/02_AngelsInc-Team-Chigusa-min.png'),
       description: <div>
         <p>1996年パリにて最初の起業。20年以上に亘り企業の海外進出を</p>
         <p>サポート。企業のグローバルブランド開発も数多く手掛ける。</p>
@@ -32,7 +32,7 @@ const strings = {
     {
       name: 'ディドロン・フロリアン',
       title: '取締役CTO',
-      image: require('../../image/jacques.png'),
+      image: require('../../image/team/03_AngelsInc-Team-Florian-min.png'),
       description: <div>
         <p>欧米大手企業にてITシステム構築の豊富な経験を持つ</p>
         <p>アントレプレナー。2011年より東京にて最新のWeb技術を企業へ</p>
@@ -44,7 +44,7 @@ const strings = {
     {
       name: '斎藤忠久',
       title: '',
-      image: require('../../image/jacques.png'),
+      image: require('../../image/team/04_AngelsInc-Team-Saito-min.png'),
       description: <div>
         <p>グロービス経営大学院およびマネジメントスクール専任教員。</p>
         <p>ファイナンス全般が専門。</p>
@@ -52,7 +52,7 @@ const strings = {
     },{
       name: '内藤 慧人',
       title: '',
-      image: require('../../image/jacques.png'),
+      image: require('../../image/team/05_AngelsInc-Team-Naito-min.png'),
       description: <div>
         <p>グローバルエグゼクティブ、米国弁護士。</p>
         <p>コーポレートガバナンス・企業統治の専門家。</p>
@@ -60,7 +60,7 @@ const strings = {
     },{
       name: 'ルベンス・ネイル',
       title: '',
-      image: require('../../image/jacques.png'),
+      image: require('../../image/team/06_AngelsInc-Team-Neil-min.png'),
       description: <div>
         <p>東京工業大学にて機械学習専攻の工学博士(PhD)。</p>
         <p>Ai技術の専門家。</p>
@@ -68,7 +68,7 @@ const strings = {
     },{
       name: 'スレスタ・スディプ・キリスナ',
       title: '',
-      image: require('../../image/jacques.png'),
+      image: require('../../image/team/07_AngelsInc-Team-Sudeep-min.png'),
       description: <div>
         <p>コンピュータエンジニア、プロダクト開発。</p>
         <p>MBA取得。</p>
@@ -76,7 +76,7 @@ const strings = {
     },{
       name: 'フィルド・ロレンス',
       title: '',
-      image: require('../../image/jacques.png'),
+      image: require('../../image/team/08_AngelsInc-Team-Lawrence-min.png'),
       description: <div>
         <p>金融系情報セキュリティの専門家。</p>
       </div>
@@ -94,7 +94,7 @@ export default class Team extends React.Component {
   renderMembers(members) {
     return members.map( (member, idx) => {
       return (
-        <Item size="33%" small="100%" className="member" key={ idx }>
+        <Item size="33.33333333333339%" small="100%" className="member" key={ idx }>
           <img src={ member.image } alt={ member.name }/>
           <h2 className="name">{ member.name }</h2>
           <p className="title">{ member.title }</p>
