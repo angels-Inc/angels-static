@@ -6,6 +6,7 @@ import Menu from './Menu.jsx';
 import MenuMobile from './MenuMobile.jsx';
 import Company from './Company.jsx';
 import Service from './Service.jsx';
+import Breaker from './Breaker.jsx';
 import zenscroll from 'zenscroll';
 
 class App extends React.Component {
@@ -23,6 +24,7 @@ class App extends React.Component {
         <Hero scroll={ this.scrollTo }/>
         <Company />
         <Service />
+        <Breaker />
       </Viewport>
     );
   }
