@@ -28,7 +28,8 @@
   "dependencies": {
     "react": "15.1.0",
     "react-dom": "15.1.0",
-    "react-plan": "0.4.2"
+    "react-plan": "0.4.2",
+    "zenscroll": "3.2.2"
   },
   "devDependencies": {
     "ava": "0.15.2",

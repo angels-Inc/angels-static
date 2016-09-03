@@ -10,7 +10,7 @@ const strings = {
   subheader3: '全面的にサポートをします。'
 }
 
-export default () => {
+export default (props) => {
   return (
       <Row align="center" className="hero">
         <Row className="container">
@@ -26,6 +26,9 @@ export default () => {
           </Item>
         </Row>
         <div className="overlay" />
+        <div className="arrow" onClick={ () => props.scroll('company') }>
+          <img src={ require('../../image/arrow.png') } alt="Down"/>
+        </div>
       </Row>
   );
 }

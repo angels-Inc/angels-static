@@ -18,7 +18,7 @@ const strings = {
 export default () => {
   return (
       <Row className="service">
-        <Row className="container-p-none">
+        <Row className="container-p-none" id="service">
           <Item size={ 5 } className="artwork" medium="100%" small="100%">
           </Item>
           <Item size={ 3 } className="content" medium="100%" small="100%">
