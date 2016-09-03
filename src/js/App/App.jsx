@@ -7,7 +7,9 @@ import MenuMobile from './MenuMobile.jsx';
 import Company from './Company.jsx';
 import Service from './Service.jsx';
 import Breaker from './Breaker.jsx';
+import Breaker2 from './Breaker2.jsx';
 import Team from './Team.jsx';
+import Contact from './Contact.jsx';
 import zenscroll from 'zenscroll';
 
 class App extends React.Component {
@@ -27,6 +29,8 @@ class App extends React.Component {
         <Service />
         <Breaker />
         <Team />
+        <Contact />
+        <Breaker2 />
       </Viewport>
     );
   }
