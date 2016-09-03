@@ -1,0 +1,184 @@
+//Utils
+
+//Gradients
+
+.gradient-horizontal {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/@red+0,0d72b9+50,33c5f3+100 */
+  background: @red; /* Old browsers */
+  background: -moz-linear-gradient(left, @red 0%, @blue 70%, @lightBlue 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, @red 0%,@blue 70%,@lightBlue 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, @red 0%,@blue 70%,@lightBlue 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@red', endColorstr='@lightBlue',GradientType=1 ); /* IE6-9 */
+}
+
+.gradient-diagonal {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/@red+0,0d72b9+50,33c5f3+100 */
+background: @red; /* Old browsers */
+background: -moz-linear-gradient(45deg,  @red 0%, @blue 70%, @lightBlue 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg,  @red 0%,@blue 70%,@lightBlue 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg,  @red 0%,@blue 70%,@lightBlue 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@red', endColorstr='@lightBlue',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+//HR
+
+hr {
+  height: 1px;
+  border: none;
+  margin: 30px 0px;
+}
+.test-box {
+  width: 600px;
+  height: 200px;
+  margin: @baseMargin;
+}
+//Global layouts helpers
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container-p-none {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+p {
+  margin-bottom: @basePadding;
+}
+.m-t-xxl {
+  margin-top: 45px;
+}
+
+.p-t-xxl {
+  padding-top: 45px;
+}
+
+.p-b-xxl {
+  padding-bottom: 45px;
+}
+
+.m-t-xl {
+  margin-top: 30px;
+}
+
+.m-b-xl {
+  margin-bottom: 30px;
+}
+//Hero
+
+.hero {
+  position: relative;
+  background-color:#020935;
+  background-image: url(../image/top_wide.png);
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  height: 80%;
+  color: @white;
+  .overlay {
+    display: none;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #020935;
+    opacity: .3;
+  }
+  .container {
+    z-index: 1;
+  }
+}
+.large.hero {
+  background-image: url(../image/top_large.png);
+}
+.medium.hero {
+  background-image: url(../image/top_large.png);
+  .overlay {
+    display: block;
+  }
+}
+.small.hero {
+  height: 100%;
+  background-image: url(../image/top_small.jpg);
+  background-position: center bottom;
+  .overlay {
+    display: block;
+  }
+  .container {
+    text-align: center;
+  }
+}
+
+.menu-mobile {
+  padding: @basePadding;
+}
+
+//Menu
+
+.menu {
+  color: @white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 4;
+  a {
+    color: @white;
+  }
+  a:hover {
+    color: @darkBlue;
+  }
+}
+
+//Company
+.company {
+  .artwork {
+    margin-left: 15px;
+    background-image: url(../image/company_wide.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+  }
+  .content {
+    padding-left: 15px;
+  }
+}
+
+.company.small {
+  .artwork {
+    margin: 0;
+    height: 25%;
+  }
+  .header {
+    text-align: center;
+  }
+  .content {
+    padding-right: 15px;
+  }
+}
+
+//Company
+.service {
+  .artwork {
+    margin-right: 15px;
+    background-color: @darkBlue;
+  }
+  .content {
+    padding-right: 15px;
+  }
+}
+
+.service.small {
+  .artwork {
+    margin: 0;
+    height: 25%;
+  }
+  .header {
+    text-align: center;
+  }
+  .content {
+    padding-left: 15px;
+  }
+}
