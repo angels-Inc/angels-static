@@ -7,7 +7,7 @@ const strings = {
   registerTitle: 'エンジェルズインクの最新情報をお届けします。',
   registerParagraph: '世界のスタートアップ最新情報、起業に関するノウハウ、投資家とのネットワーキングイベント、セミナー＆ワークショップのご案内などをお届けします。 メールマガジン登録はこちらから！',
   emailParagraph1: 'ご質問等ございましたらお気軽にご連絡ください。',
-  emailParagraph2: <p>Email <a href="mailto:hello@angels-inc.com"></a>hello@angels-inc.com</p>
+  emailParagraph2: <p>Email <a href="mailto:hello@angels-inc.com">hello@angels-inc.com</a></p>
 }
 
 export default class Team extends React.Component {

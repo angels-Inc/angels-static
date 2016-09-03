@@ -11,7 +11,6 @@ const strings = {
 
 export default (props) => {
   const handleScroll = (e, selector) => {
-    console.log(e.target.name);
     e.preventDefault();
     props.scroll(e.target.name);
   }

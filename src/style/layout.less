@@ -47,6 +47,10 @@ hr {
 p {
   margin-bottom: @basePadding;
 }
+
+.m-t {
+  margin-top: @baseMargin;
+}
 .m-t-xxl {
   margin-top: 45px;
 }
@@ -347,5 +351,26 @@ p {
   }
   .email {
     padding: 0;
+  }
+}
+
+.footer {
+  padding: 0px 10%;
+  font-size: 15px;
+  p {
+    margin: 0;
+  }
+  > div {
+    padding: 0 15px;
+  }
+  .social img {
+    max-width: 32px;
+  }
+}
+
+.footer.medium, .footer.small {
+  text-align: center;
+  > div {
+    margin-bottom: @baseMargin;
   }
 }

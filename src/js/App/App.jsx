@@ -10,6 +10,7 @@ import Breaker from './Breaker.jsx';
 import Breaker2 from './Breaker2.jsx';
 import Team from './Team.jsx';
 import Contact from './Contact.jsx';
+import Footer from './Footer.jsx';
 import zenscroll from 'zenscroll';
 
 class App extends React.Component {
@@ -31,6 +32,7 @@ class App extends React.Component {
         <Team />
         <Contact />
         <Breaker2 />
+        <Footer scroll={ this.scrollTo }/>
       </Viewport>
     );
   }
