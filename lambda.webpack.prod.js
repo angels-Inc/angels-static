@@ -90,7 +90,7 @@ module.exports = {
       loaders: ['babel-loader']
     }),
     new HtmlWebpackPlugin({
-      title: 'World Space School',
+      title: 'Angels Inc',
       template: path.join(srcDirectory, 'index.tpl.html')
     })
   ]
