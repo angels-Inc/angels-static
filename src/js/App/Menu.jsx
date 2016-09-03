@@ -23,17 +23,17 @@ export default (props) => {
           </Item>
           <Item size={ 1 } large={ 2 } medium={ 3 } small={ 1 }>
             <Row align="center" justify="space-between">
-              <Item small="hide">
+              <Item>
                 <a name="company" href="" onClick={ handleScroll.bind(this) }>{ strings.menu1 }</a>
               </Item>
-              <Item small="hide">
+              <Item>
                 <a name="service" href="" onClick={ handleScroll.bind(this) }>{ strings.menu2 }</a>
               </Item>
-              <Item small="hide">
-                <a href="">{ strings.menu3 }</a>
+              <Item>
+                 <a name="team" href="" onClick={ handleScroll.bind(this) }>{ strings.menu3 }</a>
               </Item>
-              <Item small="hide">
-                <a href="">{ strings.menu4 }</a>
+              <Item>
+                 <a name="contact" href="" onClick={ handleScroll.bind(this) }>{ strings.menu4 }</a>
               </Item>
               <Item>
                 <button className="white">{ strings.menu5 }</button>
