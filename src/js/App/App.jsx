@@ -19,7 +19,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="m-b-xxl" >
+      <Viewport>
         <Menu scroll={ this.scrollTo }/>
         <MenuMobile scroll={ this.scrollTo }/>
         <Hero scroll={ this.scrollTo }/>
@@ -27,7 +27,7 @@ class App extends React.Component {
         <Service />
         <Breaker />
         <Team />
-      </div>
+      </Viewport>
     );
   }
 }
