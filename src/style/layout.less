@@ -83,6 +83,7 @@ p {
   background-size: cover;
   height: 80%;
   color: @white;
+  padding: 0 15px;
   .overlay {
     display: none;
     position: absolute;
@@ -111,11 +112,12 @@ p {
 .medium.hero {
   height: 100%;
   background-image: url(../image/top_large.png);
+  text-align: center;
+  .content {
+    z-index: 2;
+  }
   .overlay {
     display: block;
-  }
-  .container {
-    text-align: center;
   }
   .arrow {
     display: block;
@@ -126,11 +128,12 @@ p {
   height: 100%;
   background-image: url(../image/top_small.jpg);
   background-position: center bottom;
+  text-align: center;
+  .content {
+    z-index: 2;
+  }
   .overlay {
     display: block;
-  }
-  .container {
-    text-align: center;
   }
   .arrow {
     display: block;
@@ -188,6 +191,7 @@ p {
   left: 0;
   width: 100%;
   z-index: 4;
+  padding: 15px 10%;
   a {
     color: @white;
   }

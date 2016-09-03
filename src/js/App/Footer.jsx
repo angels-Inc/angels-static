@@ -44,7 +44,7 @@ export default class Footer extends React.Component {
             <a href="#">{ strings.menu5 }</a>
           </p>
         </Item>
-        <Item size={ 1 } medium="100%" small="100%">
+        <Item size={ 2 } medium="100%" small="100%">
           〒102-0082<br/>
           サービス 東京都千代田区一番町4-22<br/>
           チーム プレイアデ一番町601号
@@ -53,7 +53,7 @@ export default class Footer extends React.Component {
           </p>
         </Item>
 
-        <Item size={ 1 } medium="100%" small="100%">
+        <Item size={ 2 } medium="100%" small="100%">
           <p>{ strings.social }</p>
           <Row justify="space-around" className="social m-t">
             <Item size={ 1 }>

@@ -15,8 +15,7 @@ export default (props) => {
     props.scroll(e.target.name);
   }
   return (
-      <Row className="menu" small="hide">
-        <Row className="container" align="center">
+      <Row className="menu" small="hide" align="center">
           <Item size={ 1 }>
             <img src={ require('../../image/logo_white.png')} alt="Angels Inc Logo"/>
           </Item>
@@ -39,7 +38,6 @@ export default (props) => {
               </Item>
             </Row>
           </Item>
-        </Row>
       </Row>
   );
 }

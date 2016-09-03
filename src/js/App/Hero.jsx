@@ -13,18 +13,16 @@ const strings = {
 export default (props) => {
   return (
       <Row align="center" className="hero">
-        <Row className="container">
-          <Item size={ 2 } medium="hide" small="hide"/>
-          <Item size={ 1 } align="center">
-            <h1>{ strings.header1 }</h1>
-            <h1>{ strings.header2 }</h1>
-            <h1>{ strings.header3 }</h1>
-            <h2 className="m-t-xl">{ strings.subheader1 }<br />
-               { strings.subheader2 }<br />
-               { strings.subheader3 }
-            </h2>
-          </Item>
-        </Row>
+        <Item size={ 6 } medium="hide" small="hide"/>
+        <Item size={ 5 } align="center" className="content">
+          <h1>{ strings.header1 }</h1>
+          <h1>{ strings.header2 }</h1>
+          <h1>{ strings.header3 }</h1>
+          <h2 className="m-t-xl">{ strings.subheader1 }<br />
+              { strings.subheader2 }<br />
+              { strings.subheader3 }
+          </h2>
+        </Item>
         <div className="overlay" />
         <div className="arrow" onClick={ () => props.scroll('company') }>
           <img src={ require('../../image/arrow.png') } alt="Down"/>
