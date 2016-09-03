@@ -267,3 +267,45 @@ p {
     background-position: center top;
   }
 }
+
+
+.team {
+  padding: 0px 10%;
+  .member-list {
+    margin: 0px -@basePadding;
+  }
+  .member {
+    font-size: 15px;
+    padding: @basePadding;
+    .name, .title {
+      margin: 0;
+    }
+    .title {
+      font-size: 15px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}
+.team.medium {
+  padding: 0 15px;
+  .header {
+    text-align: center;
+  }
+}
+.team.small {
+  padding: 0 15px;
+  .header {
+    text-align: center;
+  }
+  .intro {
+    margin-top: @baseMargin;
+  }
+  .member-list {
+    margin: 0;
+  }
+  .member {
+    padding: 0;
+  }
+}

@@ -20,7 +20,7 @@ export default () => {
     <Row className="service" id="service">
         <Item size={ 5 } className="artwork" medium="100%" small="100%">
         </Item>
-        <Item size={ 3 } className="content" medium="100%" small="100%">
+        <Item size={ 3 } className="content m-b-xxl" medium="100%" small="100%">
           <div className="header m-t-xxl">
             <p className="m-t-xxl">サービス</p>
           </div>

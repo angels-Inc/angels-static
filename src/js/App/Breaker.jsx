@@ -12,11 +12,8 @@ const strings = {
 
 export default (props) => {
   return (
-      <Row className="breaker">
+      <Row className="breaker m-b-xxl">
         <div className="artwork" />
-        <div className="arrow" onClick={ () => props.scroll('company') }>
-          <img src={ require('../../image/arrow.png') } alt="Down"/>
-        </div>
       </Row>
   );
 }
