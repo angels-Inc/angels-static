@@ -66,7 +66,7 @@ export default class Team extends React.Component {
   render() {
     return (
         <Row className="team" id="team">
-          <Column className="header">
+          <Column className="header" size="100%">
             <Item>
               <p> { strings.section } </p>
               <hr className="gradient-horizontal" />
