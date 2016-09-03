@@ -139,6 +139,14 @@ p {
   height: 70px;
   background-color: @white;
   color: @darkBlue;
+  h1 {
+    margin-bottom: @baseMargin;
+    font-size: 40px;
+  }
+
+  h2 {
+    margin: @baseMargin 0px;
+  }
   .content {
     z-index: 5;
     background-color: @white;
@@ -150,17 +158,19 @@ p {
     display: inline;
   }
   .overlay {
-    position: absolute;
+    padding: 30px;
+    position: fixed;
     background-color: @white;
     width: 100%;
-    top: -300px;
-    height: 200px;
+    top: -100%;
+    bottom: 100%;
     left: 0;
     z-index: 1;
     transition: all 300ms ease-out 0s;
   }
   .overlay.opened {
     top: 70px;
+    bottom: 0px;
   }
 }
 
