@@ -21,12 +21,14 @@ export default () => {
           <Item size="hide" medium="100%" small="100%" className="artwork">
           </Item>
           <Item size={ 3 } className="content p-b-xxl" medium="100%" small="100%">
-            <div className="header">
-              <p className="m-t-xxl m-b-xl">{ strings.section }</p>
-              <h2>{ strings.title1 }</h2>
-              <h2>{ strings.title2 }</h2>
+            <div className="header m-t-xxl">
+              <p> { strings.section }</p>
             </div>
-            <hr className="gradient-horizontal" />
+            <hr className="gradient-horizontal m-b-xxl" />
+            <div className="header m-b-xl">
+              <h1>{ strings.title1 }</h1>
+              <h1>{ strings.title2 }</h1>
+            </div>
             <p>{ strings.paragraph1 }</p>
             <p>{ strings.paragraph2 }</p>
             <p>{ strings.paragraph3 }</p>

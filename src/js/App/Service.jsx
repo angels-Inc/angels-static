@@ -21,12 +21,14 @@ export default () => {
         <Item size={ 5 } className="artwork" medium="100%" small="100%">
         </Item>
         <Item size={ 3 } className="content" medium="100%" small="100%">
-          <div className="header">
+          <div className="header m-t-xxl">
             <p className="m-t-xxl">サービス</p>
           </div>
-          <hr className="gradient-horizontal" />
-          <h1>起業家のための</h1>
-          <h1>エコシステム</h1>
+          <hr className="gradient-horizontal m-b-xxl" />
+          <div className="header m-b-xl">
+            <h1>起業家のための</h1>
+            <h1>エコシステム</h1>
+          </div>
           <p className="m-t-xl">
           ・ネットワーキングイベントの開催<br/>
           ・知識・スキルの習得セミナー&ワークショップの開催<br/>

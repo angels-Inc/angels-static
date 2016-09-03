@@ -14,15 +14,15 @@ export default (props) => {
   return (
       <Row align="center" className="hero">
         <Row className="container">
-          <Item size={ 2 } medium={ 1 } small="hide"/>
+          <Item size={ 2 } medium="hide" small="hide"/>
           <Item size={ 1 } align="center">
             <h1>{ strings.header1 }</h1>
             <h1>{ strings.header2 }</h1>
             <h1>{ strings.header3 }</h1>
-            <p className="m-t-xl">{ strings.subheader1 }<br />
+            <h2 className="m-t-xl">{ strings.subheader1 }<br />
                { strings.subheader2 }<br />
                { strings.subheader3 }
-            </p>
+            </h2>
           </Item>
         </Row>
         <div className="overlay" />
