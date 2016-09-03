@@ -20,7 +20,7 @@ export default class Team extends React.Component {
     return (
         <Column className="contact m-t-xl" id="contact">
             <Row>
-              <Item size={ 2 } className="register" small="100%">
+              <Item size={ 2 } className="register" small="100%" medium="100%">
               <h2>{ strings.section1 }</h2>
               <hr className="gradient-horizontal" />
               <Row className="m-t-xl">
