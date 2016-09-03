@@ -24,9 +24,6 @@ export default (props) => {
           </h2>
         </Item>
         <div className="overlay" />
-        <div className="arrow" onClick={ () => props.scroll('company') }>
-          <img src={ require('../../image/arrow.png') } alt="Down"/>
-        </div>
       </Row>
   );
 }
