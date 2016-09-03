@@ -19,9 +19,9 @@ export default () => {
   return (
       <Row className="company">
         <Row className="container-p-none">
-          <Item size="hide" small="100%" className="artwork">
+          <Item size="hide" medium="100%" small="100%" className="artwork">
           </Item>
-          <Item size={ 3 } className="content p-b-xxl" small="100%">
+          <Item size={ 3 } className="content p-b-xxl" medium="100%" small="100%">
             <div className="header">
               <p className="m-t-xxl m-b-xl">{ strings.section }</p>
               <h2>{ strings.title1 }</h2>

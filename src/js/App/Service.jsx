@@ -19,26 +19,23 @@ export default () => {
   return (
       <Row className="service">
         <Row className="container-p-none">
-          <Item size={ 5 } className="artwork" small="100%">
+          <Item size={ 5 } className="artwork" medium="100%" small="100%">
           </Item>
-          <Item size={ 3 } className="content" small="100%">
+          <Item size={ 3 } className="content" medium="100%" small="100%">
             <div className="header">
-              <p className="m-t-xxl m-b-xl">{ strings.section }</p>
-              <h2>{ strings.title1 }</h2>
-              <h2>{ strings.title2 }</h2>
+              <p className="m-t-xxl">サービス</p>
             </div>
             <hr className="gradient-horizontal" />
-            <p>{ strings.paragraph1 }</p>
-            <p>{ strings.paragraph2 }</p>
-            <p>{ strings.paragraph3 }</p>
-            <p>{ strings.paragraph4 }</p>
-            <p>{ strings.paragraph5 }</p>
-            <p>{ strings.paragraph6 }</p>
-            <p>
-              { strings.paragraph7 }<br />
-              { strings.paragraph8 }
+            <h1>起業家のための</h1>
+            <h1>エコシステム</h1>
+            <p className="m-t-xl">
+            ・ネットワーキングイベントの開催<br/>
+            ・知識・スキルの習得セミナー&ワークショップの開催<br/>
+            ・メンタリング<br/>
+            ・ファイナンス<br/>
+            ・経験豊富なエキスパート・企業経営者・エンジェル投資家によるサポート・オンラインプラットフォームの構築・AI技術による起業家と投資家のマッチング提案
             </p>
-          </Item>
+</Item>
         </Row>
       </Row>
   );

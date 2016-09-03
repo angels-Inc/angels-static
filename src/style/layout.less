@@ -85,7 +85,7 @@ p {
     left: 0px;
     right: 0px;
     background-color: #020935;
-    opacity: .3;
+    opacity: .4;
   }
   .container {
     z-index: 1;
@@ -95,11 +95,16 @@ p {
   background-image: url(../image/top_large.png);
 }
 .medium.hero {
+  height: 100%;
   background-image: url(../image/top_large.png);
   .overlay {
     display: block;
   }
+  .container {
+    text-align: center;
+  }
 }
+
 .small.hero {
   height: 100%;
   background-image: url(../image/top_small.jpg);
@@ -114,6 +119,10 @@ p {
 
 .menu-mobile {
   padding: @basePadding;
+  position: absolute;
+  width: 100%;
+  z-index: 4;
+  background-color: @white;
 }
 
 //Menu
@@ -146,10 +155,11 @@ p {
   }
 }
 
-.company.small {
+.company.medium, .company.small {
   .artwork {
     margin: 0;
-    height: 25%;
+    height: 400px;
+    background-size: cover;
   }
   .header {
     text-align: center;
@@ -163,17 +173,21 @@ p {
 .service {
   .artwork {
     margin-right: 15px;
-    background-color: @darkBlue;
+    background-image: url(../image/service_wide.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 500px;
   }
   .content {
     padding-right: 15px;
   }
 }
 
-.service.small {
+.service.medium, .service.small {
   .artwork {
     margin: 0;
-    height: 25%;
+    height: 400px;
+    background-size: cover;
   }
   .header {
     text-align: center;
