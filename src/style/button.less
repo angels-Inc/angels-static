@@ -1,4 +1,4 @@
-button {
+a.button, button {
   display: inline-block;
   text-align: center;
   white-space: nowrap;
@@ -17,13 +17,18 @@ button {
   padding: 10px 30px;
 }
 
-button.white {
+a.button.white, button.white {
   border: 2px solid @white;
   color: @white;
 }
-button.white:hover {
-  background-color: @white;
+a.button.blue, button.blue {
+  border: 2px solid @darkBlue;
   color: @darkBlue;
+}
+
+a.button.blue:hover, button.blue:hover {
+  background-color: @darkBlue;
+  color: @white;
 }
 
 button.gradient-horizontal,  button.gradient-diagonal{

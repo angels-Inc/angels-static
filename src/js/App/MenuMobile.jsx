@@ -48,7 +48,7 @@ export default class Menu extends React.Component {
             <a name="contact" href="" onClick={ this.handleScroll.bind(this) }>{ strings.menu4 }</a>
           </h1>
           <h1>
-            <a href="#">{ strings.menu5 }</a>
+            <a href="https://app.angels-inc.com">{ strings.menu5 }</a>
           </h1>
           <h2>{ strings.social }</h2>
           <Row justify="space-around">

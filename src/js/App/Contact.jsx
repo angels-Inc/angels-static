@@ -7,7 +7,8 @@ const strings = {
   registerTitle: 'エンジェルズインクの最新情報をお届けします。',
   registerParagraph: '世界のスタートアップ最新情報、起業に関するノウハウ、投資家とのネットワーキングイベント、セミナー＆ワークショップのご案内などをお届けします。 メールマガジン登録はこちらから！',
   emailParagraph1: 'ご質問等ございましたらお気軽にご連絡ください。',
-  emailParagraph2: <p>Email <a href="mailto:hello@angels-inc.com">hello@angels-inc.com</a></p>
+  emailParagraph2: <p>Email <a href="mailto:hello@angels-inc.com">hello@angels-inc.com</a></p>,
+  subscribe: 'メルマガ登録'
 }
 
 export default class Team extends React.Component {
@@ -29,6 +30,7 @@ export default class Team extends React.Component {
                 </Item>
                 <Item size={ 1 } small="100%">
                   <p>{ strings.registerParagraph }</p>
+                  <a className="button blue" href="https://app.angels-inc.com">{ strings.subscribe }</a>
                 </Item>
               </Row>
               </Item>

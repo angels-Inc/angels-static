@@ -34,7 +34,7 @@ export default (props) => {
                  <a name="contact" href="" onClick={ handleScroll.bind(this) }>{ strings.menu4 }</a>
               </Item>
               <Item>
-                <button className="white">{ strings.menu5 }</button>
+                <a href="https://app.angels-inc.com" className="button white">{ strings.menu5 }</a>
               </Item>
             </Row>
           </Item>

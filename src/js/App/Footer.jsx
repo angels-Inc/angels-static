@@ -41,7 +41,7 @@ export default class Footer extends React.Component {
             <a name="contact" href="" onClick={ this.handleScroll.bind(this) }>{ strings.menu4 }</a>
           </p>
           <p>
-            <a href="#">{ strings.menu5 }</a>
+            <a href="https://app.angels-inc.com">{ strings.menu5 }</a>
           </p>
         </Item>
         <Item size={ 2 } medium="100%" small="100%">
