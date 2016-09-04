@@ -57,16 +57,19 @@ export default class Footer extends React.Component {
           <p>{ strings.social }</p>
           <Row justify="space-around" className="social m-t">
             <Item size={ 1 }>
-              <img src={ require('../../image/instagram.png') } alt="Instagram"/>
+              <a href="https://www.facebook.com/angels.inc.asia/" target="_blank">
+                <img src={ require('../../image/facebook.png') } alt="Facebook"/>
+              </a>
             </Item>
             <Item size={ 1 }>
-              <img src={ require('../../image/facebook.png') } alt="Facebook"/>
+              <a href="https://twitter.com/AngelsIncAsia" target="_blank">
+                <img src={ require('../../image/twitter.png') } alt="Twitter"/>
+              </a>
             </Item>
             <Item size={ 1 }>
-              <img src={ require('../../image/twitter.png') } alt="Twitter"/>
-            </Item>
-            <Item size={ 1 }>
-              <img src={ require('../../image/linkedin.png') } alt="LinkedIn"/>
+              <a href="https://www.linkedin.com/company/angelsinc" target="_blank">
+                <img src={ require('../../image/linkedin.png') } alt="LinkedIn"/>
+              </a>
             </Item>
           </Row>
         </Item>

@@ -53,16 +53,19 @@ export default class Menu extends React.Component {
           <h2>{ strings.social }</h2>
           <Row justify="space-around">
             <Item>
-              <img src={ require('../../image/instagram.png') } alt="Instagram"/>
+              <a href="https://www.facebook.com/angels.inc.asia/" target="_blank">
+                <img src={ require('../../image/facebook.png') } alt="Facebook"/>
+              </a>
             </Item>
             <Item>
-              <img src={ require('../../image/facebook.png') } alt="Facebook"/>
+              <a href="https://twitter.com/AngelsIncAsia" target="_blank">
+                <img src={ require('../../image/twitter.png') } alt="Twitter"/>
+              </a>
             </Item>
             <Item>
-              <img src={ require('../../image/twitter.png') } alt="Twitter"/>
-            </Item>
-            <Item>
-              <img src={ require('../../image/linkedin.png') } alt="LinkedIn"/>
+              <a href="https://www.linkedin.com/company/angelsinc" target="_blank">
+                <img src={ require('../../image/linkedin.png') } alt="LinkedIn"/>
+              </a>
             </Item>
           </Row>
         </div>
