@@ -46,8 +46,8 @@ export default class Footer extends React.Component {
         </Item>
         <Item size={ 2 } medium="100%" small="100%">
           〒102-0082<br/>
-          サービス 東京都千代田区一番町4-22<br/>
-          チーム プレイアデ一番町601号
+          東京都千代田区一番町4-22<br/>
+          プレイアデ一番町601号
           <p className="m-t">
             <a href="mailto:hello@angels-inc.com">hello@angels-inc.com</a>
           </p>

@@ -63,7 +63,7 @@ const strings = {
       image: require('../../image/team/06_AngelsInc-Team-Neil-min.png'),
       description: <div>
         <p>東京工業大学にて機械学習専攻の工学博士(PhD)。</p>
-        <p>Ai技術の専門家。</p>
+        <p>AI技術の専門家。</p>
       </div>
     },{
       name: 'スレスタ・スディプ・キリスナ',
