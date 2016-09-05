@@ -21,20 +21,20 @@ export default class Team extends React.Component {
     return (
         <Column className="contact m-t-xxl" id="contact">
             <Row>
-              <Item size={ 2 } className="register" small="100%" medium="100%">
-              <h2>{ strings.section1 }</h2>
-              <hr className="gradient-horizontal" />
-              <Row className="m-t-xl">
-                <Item size={ 1 } small="100%">
-                  <h1>{ strings.registerTitle }</h1>
-                </Item>
-                <Item size={ 1 } small="100%">
-                  <p>{ strings.registerParagraph }</p>
-                  <a className="button blue" href="https://app.angels-inc.com">{ strings.subscribe }</a>
-                </Item>
-              </Row>
+              <Item size={ 2 } className="register m-t-xl" small="100%" medium="100%">
+                <h2>{ strings.section1 }</h2>
+                <hr className="gradient-horizontal" />
+                <Row className="m-t-xl" small="100%" medium="100%">
+                  <Item size={ 1 } small="100%">
+                    <h1>{ strings.registerTitle }</h1>
+                  </Item>
+                  <Item size={ 1 } small="100%">
+                    <p>{ strings.registerParagraph }</p>
+                    <a className="button blue" href="https://app.angels-inc.com">{ strings.subscribe }</a>
+                  </Item>
+                </Row>
               </Item>
-              <Item size={ 1 } className="email">
+              <Item size={ 1 } className="email m-t-xl" small="100%" medium="100%">
               <h2>{ strings.section2 }</h2>
               <hr className="gradient-horizontal" />
               <div className="m-t-xl">
