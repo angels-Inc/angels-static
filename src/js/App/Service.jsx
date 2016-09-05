@@ -2,17 +2,14 @@ import React from 'react';
 import { Row, Item} from 'react-plan';
 
 const strings = {
-  section: '会社概要',
-  title1: 'すべての方に 成功への第一歩を。',
-  title2: 'すべての女性に起業のチャンスを',
-  paragraph1: '私たちは日本やアジアの国々から世界を変える起業家を育成・支援することを目的としたエンジェル投資型サービス企業です。',
-  paragraph2: 'エンジェルズインクではスタートアップ企業がつまずくことなく成長するためには、出資の資金提供に留まらず、持続的成長を促すための知識・ノウハウ・仕組みづくり・人脈形成など様々な要素が必要不可欠であると考えます。',
-  paragraph3: 'そこで、ファイナンス・マネジメント・マーケティング・ブランディング・テクノロジー・クリエイティブなど幅広い分野の経験豊富なエキスパートたちをチームに迎えてみなさんの成功の実現に向け尽力いたします。',
-  paragraph4: 'また、日本にふさわしいスタートアップ企業と投資家の関係を',
-  paragraph5: '考えたとき、新たなエンゲージメントの確立によって企業とエンジェル投資家が持続的なコミットメントと支援を互いに約束し共に成長することが、より多くのアントレプレナーとその支援者であるエンジェル投資家を増やしていくことにつながります。',
-  paragraph6: '夢をもつすべての方のために、私たちエンジェルズインクはみなさんの成功を全力で応援いたします。',
-  paragraph7: 'Empowering Entrepreneurs',
-  paragraph8: 'すべての方に起業の力を。'
+  section: 'サービス',
+  title1: '起業家のための',
+  title2: 'エコシステム',
+  paragraph1: 'ネットワーキングイベントの開催',
+  paragraph2: '知識・スキルの習得セミナー＆ワークショップの開催',
+  paragraph3: '経験豊富なエキスパート・企業経営者・エンジェル投資家によるサポート',
+  paragraph4: 'オンラインプラットフォーム・クラウドファンディングの構築',
+  paragraph5: 'AI技術による起業家と投資家のマッチング提案'
 }
 
 export default () => {
@@ -22,19 +19,19 @@ export default () => {
         </Item>
         <Item size={ 3 } className="content m-b-xxl" medium="100%" small="100%">
           <div className="header m-t-xxl">
-            <p className="m-t-xxl">サービス</p>
+            <p className="m-t-xxl">{ strings.section }</p>
           </div>
           <hr className="gradient-horizontal m-b-xxl" />
           <div className="header m-b-xl">
-            <h1>起業家のための</h1>
-            <h1>エコシステム</h1>
+            <h1>{ strings.title1 }</h1>
+            <h1>{ strings.title2 }</h1>
           </div>
           <p className="m-t-xl">
-          ・ネットワーキングイベントの開催<br/>
-          ・知識・スキルの習得セミナー&ワークショップの開催<br/>
-          ・メンタリング<br/>
-          ・ファイナンス<br/>
-          ・経験豊富なエキスパート・企業経営者・エンジェル投資家によるサポート・オンラインプラットフォームの構築・AI技術による起業家と投資家のマッチング提案
+          ・{ strings.paragraph1 }<br/>
+          ・{ strings.paragraph2 }<br/>
+          ・{ strings.paragraph3 }<br/>
+          ・{ strings.paragraph4 }<br/>
+          ・{ strings.paragraph5 }
           </p>
         </Item>
     </Row>

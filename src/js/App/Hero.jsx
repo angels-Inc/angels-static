@@ -3,11 +3,11 @@ import { Row, Item} from 'react-plan';
 
 const strings = {
   header1: '育成、投資、飛躍。',
-  header2: 'あなたのイノベーション',
-  header3: '応 援します。',
-  subheader1: '私たちは起業家の育成や、スタートアップ企業と',
-  subheader2: '投資家を繫ぎ、ビジネスの成功に向けて',
-  subheader3: '全面的にサポートをします。'
+  header2: 'あなたのイノベーション',
+  header3: '応援します。',
+  subheader1: '私たちは起業家の育成や、スタートアップ企業と',
+  subheader2: '投資家を繫ぎ、ビジネスの成功に向けて',
+  subheader3: '全面的にサポートをします。'
 }
 
 export default (props) => {

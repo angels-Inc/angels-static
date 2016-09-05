@@ -5,7 +5,7 @@ const strings = {
   section1: 'メールマガジン',
   section2: 'お問い合わせ',
   registerTitle: 'エンジェルズインクの最新情報をお届けします。',
-  registerParagraph: '世界のスタートアップ最新情報、起業に関するノウハウ、投資家とのネットワーキングイベント、セミナー＆ワークショップのご案内などをお届けします。 メールマガジン登録はこちらから！',
+  registerParagraph: <p>世界のスタートアップ最新情報、起業に関するノウハウ、投資家とのネットワーキングイベント、セミナー＆ワークショップのご案内などをお届けします。<br/>メールマガジン登録はこちらから！</p>,
   emailParagraph1: 'ご質問等ございましたらお気軽にご連絡ください。',
   emailParagraph2: <p>Email <a href="mailto:hello@angels-inc.com">hello@angels-inc.com</a></p>,
   subscribe: 'メルマガ登録'

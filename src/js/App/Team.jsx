@@ -14,9 +14,7 @@ const strings = {
       title: '代表取締役CEO',
       image: require('../../image/team/01_AngelsInc-Team-Jacques-min.png'),
       description: <div>
-        <p>ITエンジニアとCFOの職歴を持つエンジェル投資家。</p>
-        <p>シードステージのスタートアップ企業の支援を行っている。</p>
-        <p>MBA(経営学修士)及びLLM（法学修士）日本在住15年目。</p>
+        <p>ITエンジニアとCFOの職歴を持つエンジェル投資家。シードステージのスタートアップ企業の支援を行っている。MBA(経営学修士)及びLLM（法学修士）日本在住15年目。</p>
       </div>
     },
     {
@@ -24,9 +22,7 @@ const strings = {
       title: '取締役COO',
       image: require('../../image/team/02_AngelsInc-Team-Chigusa-min.png'),
       description: <div>
-        <p>1996年パリにて最初の起業。20年以上に亘り企業の海外進出を</p>
-        <p>サポート。企業のグローバルブランド開発も数多く手掛ける。</p>
-        <p>中央大学法学部法律学科卒。日英仏のトリリンガル。</p>
+        <p>1996年パリにて最初の起業。20年以上に亘り企業の海外進出をサポート。企業のグローバルブランド開発も数多く手掛ける。中央大学法学部法律学科卒。日英仏のトリリンガル。</p>
       </div>
     },
     {
@@ -34,9 +30,7 @@ const strings = {
       title: '取締役CTO',
       image: require('../../image/team/03_AngelsInc-Team-Florian-min.png'),
       description: <div>
-        <p>欧米大手企業にてITシステム構築の豊富な経験を持つ</p>
-        <p>アントレプレナー。2011年より東京にて最新のWeb技術を企業へ</p>
-        <p>導入する111Studio社を設立。日本在住７年目。</p>
+        <p>欧米大手企業にてITシステム構築の豊富な経験を持つアントレプレナー。2011年より東京にて最新のWeb技術を企業へ導入する111Studio社を設立。日本在住７年目。</p>
       </div>
     }
   ],
@@ -46,32 +40,28 @@ const strings = {
       title: '',
       image: require('../../image/team/04_AngelsInc-Team-Saito-min.png'),
       description: <div>
-        <p>グロービス経営大学院およびマネジメントスクール専任教員。</p>
-        <p>ファイナンス全般が専門。</p>
+        <p>グロービス経営大学院およびマネジメントスクール専任教員。ファイナンス全般が専門。</p>
       </div>
     },{
       name: '内藤 慧人',
       title: '',
       image: require('../../image/team/05_AngelsInc-Team-Naito-min.png'),
       description: <div>
-        <p>グローバルエグゼクティブ、米国弁護士。</p>
-        <p>コーポレートガバナンス・企業統治の専門家。</p>
+        <p>グローバルエグゼクティブ、米国弁護士。コーポレートガバナンス・企業統治の専門家。</p>
       </div>
     },{
       name: 'ルベンス・ネイル',
       title: '',
       image: require('../../image/team/06_AngelsInc-Team-Neil-min.png'),
       description: <div>
-        <p>東京工業大学にて機械学習専攻の工学博士(PhD)。</p>
-        <p>AI技術の専門家。</p>
+        <p>東京工業大学にて機械学習専攻の工学博士(PhD)。AI技術の専門家。</p>
       </div>
     },{
       name: 'スレスタ・スディプ・キリスナ',
       title: '',
       image: require('../../image/team/07_AngelsInc-Team-Sudeep-min.png'),
       description: <div>
-        <p>コンピュータエンジニア、プロダクト開発。</p>
-        <p>MBA取得。</p>
+        <p>コンピュータエンジニア、プロダクト開発。MBA取得。</p>
       </div>
     },{
       name: 'フィルド・ロレンス',
