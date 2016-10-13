@@ -17,7 +17,7 @@ export default (props) => {
   return (
       <Row className="menu" small="hide" align="center">
           <Item size={ 1 }>
-            <img src={ require('../../image/logo_white.png')} alt="Angels Inc Logo"/>
+            <img src={ require('../../image/logo.png')} alt="Angels Inc Logo"/>
           </Item>
           <Item size={ 1 } large={ 2 } medium={ 3 } small={ 1 }>
             <Row align="center" justify="space-between">
@@ -34,7 +34,7 @@ export default (props) => {
                  <a name="contact" href="" onClick={ handleScroll.bind(this) }>{ strings.menu4 }</a>
               </Item>
               <Item>
-                <a href="https://app.angels-inc.com" className="button white">{ strings.menu5 }</a>
+                <a href="https://app.angels-inc.com" className="button blue">{ strings.menu5 }</a>
               </Item>
             </Row>
           </Item>

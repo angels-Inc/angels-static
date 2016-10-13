@@ -89,23 +89,13 @@ p {
 
 .hero {
   position: relative;
-  background-image: url(../image/top_wide.png);
-  background-position: left center;
+  background-image: url(../image/top_large.png);
+  background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #EDF3FF;
+  text-align: center;
   height: 100%;
-  color: @white;
   padding: 0 15px;
-  .overlay {
-    display: none;
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    background-color: #020934;
-    opacity: .4;
-  }
   .container {
     z-index: 1;
   }
@@ -123,13 +113,11 @@ p {
 }
 .medium.hero {
   height: 100%;
-  background-image: url(../image/top_large.png);
+  background-image: url(../image/top_medium.png);
   text-align: center;
+  background-size:80%;
   .content {
     z-index: 2;
-  }
-  .overlay {
-    display: block;
   }
   .arrow {
     display: block;
@@ -138,14 +126,18 @@ p {
 
 .small.hero {
   height: 100%;
-  background-image: url(../image/top_small.jpg);
-  background-position: center bottom;
-  text-align: center;
+  background-image: url(../image/top_medium.png);
+
+  background-size:95%;
+  font-size: .8em;
+  h1 {
+    font-size: 5vw;
+  }
+  h2 {
+    font-size: 4vw;
+  }
   .content {
     z-index: 2;
-  }
-  .overlay {
-    display: block;
   }
   .arrow {
     display: block;
@@ -158,7 +150,6 @@ p {
   width: 100%;
   z-index: 4;
   height: 70px;
-  background-color: @white;
   color: @darkBlue;
   h1 {
     margin-bottom: @baseMargin;
@@ -169,7 +160,6 @@ p {
   }
   .content {
     z-index: 5;
-    background-color: @white;
     .button-container {
       text-align: right;
     }
@@ -197,16 +187,12 @@ p {
 //Menu
 
 .menu {
-  color: @white;
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   z-index: 4;
   padding: 15px 10%;
-  a {
-    color: @white;
-  }
   a:hover {
     color: @darkBlue;
   }
