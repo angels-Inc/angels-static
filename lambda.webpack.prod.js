@@ -43,12 +43,12 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: 'style!css',
+        loader: ExtractTextPlugin.extract('css'),
         include: modulesPaths
       },
       {
         test: /\.less$/,
-        loader: 'style!css!less',
+        loader: ExtractTextPlugin.extract('css!less'),
         include: modulesPaths
       },
       {
