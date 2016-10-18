@@ -14,7 +14,7 @@ const strings = {
       title: '代表取締役CEO',
       image: require('../../image/team/01_AngelsInc-Team-Jacques-min.png'),
       description: <div>
-        <p>ITエンジニアとCFOの職歴を持つエンジェル投資家。シードステージのスタートアップ企業の支援を行っている。MBA(経営学修士)及びLLM（法学修士）日本在住15年目。</p>
+        <p>ITディレクターとCFOの職歴を持つエンジェル投資家。シードステージのスタートアップ企業の支援を行っている。MBA(経営学修士)及びLLM（法学修士）日本在住15年目。</p>
       </div>
     },
     {
