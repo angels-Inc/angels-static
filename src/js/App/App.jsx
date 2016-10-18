@@ -20,6 +20,10 @@ class App extends React.Component {
     zenscroll.to(el);
   }
 
+  componentDidMount() {
+    window.prerenderReady = true;
+  }
+
   render() {
     return (
       <Viewport>

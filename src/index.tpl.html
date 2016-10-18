@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name="fragment" content="!">
     <meta name="viewport" content="width=device-width">
     <meta name="google-site-verification" content="rhMuXGLrKBluSvZcN7JGA7FQTguB8L6-GiK2bta9EeM" />
     <meta property="og:title" content="Angels, Inc" />
@@ -11,7 +12,8 @@
     <meta property="og:image" content="https://www.angels-inc.com/logo-social.png" />
     <meta property="og:url" content="https://www.angels-inc.com/" />
     <meta property="og:locale" content="ja_JP" />
-
+    <script> window.prerenderReady = false; </script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.js?features=es6"></script>
   </head>
   <body>
     <div id="root"></div>
