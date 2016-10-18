@@ -71,7 +71,7 @@ export default class Menu extends React.Component {
         </div>
         <Row align="center" className="content" justify="space-between">
           <Item size={ 1 }>
-            <img src={ require('../../image/logo.png')} alt="Angels Inc Logo"/>
+            <img src={ require('../../image/logo_white.png')} alt="Angels Inc Logo"/>
           </Item>
           <Item size={ 1 } className="button-container">
             <span className={ buttonClass } type="button" onClick={ this.handleClick }>
