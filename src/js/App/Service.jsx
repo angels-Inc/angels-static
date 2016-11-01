@@ -62,13 +62,13 @@ export default () => {
             <p className="m-t-xxl">{ strings.section }</p>
           </div>
           <hr className="gradient-horizontal m-b-xxl" />
-          <div className="header m-b-xl p-xxl">
+          <div className="header m-b-xl">
             <h1>{ strings.title1 }</h1>
             <h1>{ strings.title2 }</h1>
           </div>
           <Row>
-            <Item size={ 1 } small="100%" >
-              <div className="m-t p-xxl">
+            <Item size={ 1 } small="100%" className="col-l">
+              <div className="m-t m-b-xxl">
                 <h4>
                   { strings.sectionTitle11} <br />
                   { strings.sectionTitle12}
@@ -77,7 +77,7 @@ export default () => {
                   {strings.paragraph1 }
                 </p>
               </div>
-              <div className="m-t p-xxl">
+              <div className="m-t m-b-xxl">
                 <h4>
                   { strings.sectionTitle21} <br />
                   { strings.sectionTitle22}
@@ -86,7 +86,7 @@ export default () => {
                   {strings.paragraph2 }
                 </p>
               </div>
-              <div className="m-t p-xxl">
+              <div className="m-t m-b-xxl">
                 <h4>
                   { strings.sectionTitle31} <br />
                   { strings.sectionTitle32}
@@ -96,8 +96,8 @@ export default () => {
                 </p>
               </div>
             </Item>
-            <Item size={ 1 }>
-              <div className="m-t p-xxl">
+            <Item size={ 1 } small="100%" className="col-r">
+              <div className="m-t m-b-xxl">
                 <h4>
                   { strings.sectionTitle41} <br />
                   { strings.sectionTitle42}
@@ -106,7 +106,7 @@ export default () => {
                   {strings.paragraph4 }
                 </p>
               </div>
-              <div className="m-t p-xxl">
+              <div className="m-t m-b-xxl">
                 <h4>
                   { strings.sectionTitle51} <br />
                   { strings.sectionTitle52}
