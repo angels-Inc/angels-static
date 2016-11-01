@@ -25,7 +25,7 @@ const strings = {
 ビスの双方で提案していきます。',
   sectionTitle31:'AI技術による起業家と投資家の',
   sectionTitle32:'マッチング提案',
-  paragraph3: '会員登録情報などのデータを基に、AI 技術を使った起業家と投\
+  paragraph3: '会員登録情報などのデータを基に、AI技術を使った起業家と投\
 資家のマッチングサービスを提供していきます。これにより、お互\
 いのニーズにマッチした新たなチャンスと、共存共栄の枠組みが\
 実現します。エンジェル投資家やベンチャーキャピタルにとっても\
@@ -50,7 +50,7 @@ const strings = {
 コミュニティづくりや情報交換用のフォーラムなどのネットワーキ\
 ング機能などをご利用いただけます。また、現在エンジェルズイン\
 クでは、起業家たちの支援およびスタートアップ企業の活性化を\
-目的とした、クラウドファンディングを構築中です。（2017 年サー\
+目的とした、クラウドファンディングを構築中です。（2017年サー\
 ビスイン予定）'
 }
 
@@ -70,7 +70,7 @@ export default () => {
             <Item size={ 1 } small="100%" className="col-l">
               <div className="m-t m-b-xxl">
                 <h4>
-                  { strings.sectionTitle11} <br />
+                  { strings.sectionTitle11}<br />
                   { strings.sectionTitle12}
                 </h4>
                 <p>
@@ -79,7 +79,7 @@ export default () => {
               </div>
               <div className="m-t m-b-xxl">
                 <h4>
-                  { strings.sectionTitle21} <br />
+                  { strings.sectionTitle21}<br />
                   { strings.sectionTitle22}
                 </h4>
                 <p>
@@ -88,7 +88,7 @@ export default () => {
               </div>
               <div className="m-t m-b-xxl">
                 <h4>
-                  { strings.sectionTitle31} <br />
+                  { strings.sectionTitle31}<br />
                   { strings.sectionTitle32}
                 </h4>
                 <p>
@@ -99,7 +99,7 @@ export default () => {
             <Item size={ 1 } small="100%" className="col-r">
               <div className="m-t m-b-xxl">
                 <h4>
-                  { strings.sectionTitle41} <br />
+                  { strings.sectionTitle41}<br />
                   { strings.sectionTitle42}
                 </h4>
                 <p>
@@ -108,7 +108,7 @@ export default () => {
               </div>
               <div className="m-t m-b-xxl">
                 <h4>
-                  { strings.sectionTitle51} <br />
+                  { strings.sectionTitle51}<br />
                   { strings.sectionTitle52}
                 </h4>
                 <p>
