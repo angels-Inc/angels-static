@@ -7,7 +7,7 @@ const strings = {
   header3: 'いろいろと。',
   subheader1: '起業家育成セミナー',
   subheader2: '「エクイティストーリー」',
-  date: '2016年10月26日（水）',
+  date: '2016年11月28日（月）',
   cta: '詳細はこちら'
 }
 
