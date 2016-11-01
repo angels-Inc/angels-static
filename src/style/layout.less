@@ -21,6 +21,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='@red', endCol
 
 }
 
+p {
+  text-align: justify;
+}
 //HR
 
 hr {
@@ -223,9 +226,6 @@ p {
     height: 400px;
     background-size: cover;
   }
-  .header {
-    text-align: center;
-  }
   .content {
     padding-left: 15px;
     padding-right: 15px;
@@ -250,11 +250,14 @@ p {
   }
 }
 
-.service.medium, .service.small {
-  padding: 10px;
+.small {
   h1 {
     font-size: 1.6em;
   }
+}
+
+.service.medium, .service.small {
+  padding: 10px;
   h4 {
     font-size: 1.1em;
   }
@@ -338,15 +341,9 @@ p {
 }
 .team.medium {
   padding: 0 15px;
-  .header {
-    text-align: center;
-  }
 }
 .team.small {
   padding: 0 15px;
-  .header {
-    text-align: center;
-  }
   .intro {
     margin-top: @baseMargin;
   }
