@@ -22,7 +22,7 @@ export default (props) => {
               { strings.subheader2 }<br />
           </h2>
           <h1>{ strings.date }</h1>
-          <a href="https://app.angels-inc.com" className="m-t-xl button blue">{ strings.cta }</a>
+          <a href="https://app.angels-inc.com/events/2016-11-equity-stories/" className="m-t-xl button blue">{ strings.cta }</a>
         </Item>
       </Row>
   );
